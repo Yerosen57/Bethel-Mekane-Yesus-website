@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bethel Mekane Yesus School</title>
+    <style>
+  body {
+    background-image: url("images/bt20.jpg");
+    /* Optional: other background properties */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover;       /* Stretches image to cover the entire container */
+    background-attachment: fixed; /* Keeps the background in place while scrolling */
+  }
+</style>
+    <link rel="stylesheet"href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?
+family Poppins:wght@1003200;300;400;600;700&display=swap"
+rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-
+awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+      <nav>
+         <a href="index.html"><img src="images/bt13.png"></a> 
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times"onclick="hideMenu()"></i>
+             <ul>
+                <li><a href="index.html">HOME</a></li>
+               <li><a href="about.html">ABOUT</a></li>
+               <li><a href="blog.html">BLOG</a></li>
+               <li><a href="contact.html">CONTACT</a></li>
+             </ul>
+         </div>
+         <i class="fa fa-bars"onclick="showMenu()"></i>
+     </nav>
+     <h1>About us</h1>
+ <!---------about us content--------->
+</section>
+<section class="about-us">
+<div class="row">
+<div class="about-col">
+<h1>We are one of the few girls school in Ethiopia.</h1>
+<p>We have both primary and secondary level of eduction. </br>
+  The primary school consists of boys until 6<sup>th</sup> grade.</br>
+  While highschool consists of only girl students.
+</p>
+   <a href="" class="hero-btn blue-btn">EXPLORE NOW</a>
+  </div>
+ <div class="about-col">
+   <img src="images/bt9.webp">
+</div>
+<div class="about-col"></div>
+</div>
+</section>
+ <!------footer------>
+ <section class="footer">
+    <h4> About us</h4> </br>
+ </section>
+
+</div>
+ <script>   
+      var navLinks=document.getElementById("navLinks")
+       function showMenu() {
+       navLinks.style.right = "0";
+       }
+     function hideMenu() {
+     navLinks.style.right = "-200px";
+        }
+</script>
+</body>
+</html>

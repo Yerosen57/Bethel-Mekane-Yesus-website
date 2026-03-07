@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bethel Mekane Yesus School</title>
+    <style>
+  body {
+    background-image: url("images/bt20.jpg");
+    /* Optional: other background properties */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover;       /* Stretches image to cover the entire container */
+    background-attachment: fixed; /* Keeps the background in place while scrolling */
+  }
+</style>
+    <link rel="stylesheet"href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?
+family Poppins:wght@1003200;300;400;600;700&display=swap"
+rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-
+awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+      <nav>
+         <a href="index.html"><img src="images/bt13.png"></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times"onclick="hideMenu()"></i>
+             <ul>
+                <li><a href="index.html">HOME</a></li>
+               <li><a href="about.html">ABOUT</a></li>
+               <li><a href="blog.html">BLOG</a></li>
+               <li><a href="contact.html">CONTACT</a></li>
+             </ul>
+         </div>
+         <i class="fa fa-bars"onclick="showMenu()"></i>
+     </nav>
+     <h1>Blog</h1>
+     
+</section>
+ <!---------blog page content--------->
+<section class="blog-content"
+<div class="row">
+<div class="blog-left">
+<img src="images/bt1.webp">
+  <img src="images/bt8.webp">
+<h2>Our graduates </h2>
+</div>
+<div class="blog-right"></div>
+</div>
+</section>
+ <!------footer------>
+ <section class="footer">
+    <h4>Blog</h4> </br>
+ </section>
+
+</div>
+ <script>   
+      var navLinks=document.getElementById("navLinks")
+       function showMenu() {
+       navLinks.style.right = "0";
+       }
+     function hideMenu() {
+     navLinks.style.right = "-200px";
+        }
+</script>
+</body>
+</html>
